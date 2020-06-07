@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/style.css">
+    <title>RPSLS</title>
+</head>
+<body>
+    <section class="game">
+        <header class="intro">
+            <h1>Rock Papper Scissors Lizard Spock</h1>
+            <button id="new-game">LET'S PlAY</button>
+        </header>
+        <div class="score">
+            <div class="player-score">
+                <h2>Player</h2>
+                <p id="player-score">0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p id="computer-score">0</p>
+            </div>
+        </div> 
+        <section class="result" id="result">
+            <h1 id="result-desc">Papper covers rock!</h1>
+            <h2 id="winner-desc">Winner is: </h2>
+        </section>
+        <div class="match">
+            <i id="player-hand" class="far fa-hand-rock"></i>
+            <i id="computer-hand" class="far fa-hand-rock"></i>
+        </div>
+        <div class="options" id="options">
+            <p>Make your choice:</p>
+            <div>
+                <button id="rock"><i class="far fa-hand-rock"></i></button>
+                <button id="paper"><i class="far fa-hand-paper"></i></button>
+                <button id="scissors"><i class="far fa-hand-scissors"></i></button>
+                <button id="lizard"><i class="far fa-hand-lizard"></i></button>
+                <button id="spock"><i class="far fa-hand-spock"></i></button>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

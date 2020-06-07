@@ -1,0 +1,2 @@
+Wyświetlać result descryption na podstawie obiektu
+zrobić funkcję z if-ów z handchoice z parametrami, które będą przyjmowac stylowanie
